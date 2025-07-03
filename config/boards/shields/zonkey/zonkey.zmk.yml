@@ -1,6 +1,6 @@
 file_format: "1"
-id: moNa2
-name: moNa2
+id: zonkey
+name: zonkey
 type: shield
 url: https://github.com/kureyakey/zmk-config-zonkey3
 requires: [seeeduino_xiao_ble]
