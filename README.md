@@ -284,10 +284,12 @@ kemapを編集して使用する場合は以下に記載する手順を行う必
 (1)PCとZonkeyをUSBケーブルで接続し、以下の手順を行ってください。<br>
 <br>
 <br>
-![Image](https://github.com/user-attachments/assets/23cc887e-395b-4f18-9dbe-f166f679f08f)<br>
+![Image](https://github.com/user-attachments/assets/8c4b86fa-e249-4288-88e9-113a6de4f31e)
 <br>
 <br>
-![Image](https://github.com/user-attachments/assets/c8af5e12-47a5-471b-a2b8-146585069f15)<br>
+<br>
+![Image](https://github.com/user-attachments/assets/c8af5e12-47a5-471b-a2b8-146585069f15)
+<br>
 <br>
 <br>
 <br>
