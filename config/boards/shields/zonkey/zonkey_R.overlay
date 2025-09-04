@@ -50,12 +50,12 @@
     cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
 
     trackball: trackball@0 {
-        status = "okay";
-        compatible = "pixart,pmw3610";
-        reg = <0>;
-        spi-max-frequency = <2000000>;
-        zmk,pointing-poll-interval-ms = <1>;   /* 1ms間隔でポーリング */
-        automouse-layer = <6>;
-        scroll-layers = <5>;
-    };
+    status = "okay";
+    compatible = "pixart,pmw3610";
+    reg = <0>;
+    spi-max-frequency = <2000000>;
+    zmk,pointing-poll-interval-ms = <1>;   /* 1ms間隔でポーリング */
+    automouse-layer = <6>;
+    scroll-layers = <5>;
+};
 };
