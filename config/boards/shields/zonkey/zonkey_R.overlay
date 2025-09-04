@@ -54,7 +54,7 @@
     compatible = "pixart,pmw3610";
     reg = <0>;
     spi-max-frequency = <2000000>;
-    zmk,pointing-poll-interval-ms = <1>;   /* 1ms間隔でポーリング */
+    zmk,pointing-poll-interval-ms = <1>;
     automouse-layer = <6>;
     scroll-layers = <5>;
 };
