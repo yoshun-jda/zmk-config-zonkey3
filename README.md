@@ -11,6 +11,8 @@ Zonkeyは分割キーボードを初めて使用する方にも扱いやすい<b
 １日８時間使用で１カ月使用できることを目安としています。<br>
 <br>
 <br>
+[zonkeyキーマップ解説ページ](https://note.com/goya_k)<br>
+<br>
 
 ![Image](https://github.com/user-attachments/assets/2d8b81b8-3461-46fd-ad0a-fdfbf65e068e)
 <br>
@@ -60,8 +62,8 @@ Zonkeyは分割キーボードを初めて使用する方にも扱いやすい<b
 ロープロファイルスイッチ専用キーボード<br>
 19mmキーピッチ<br>
 ZMKfirmware採用<br>
-25mmベアリング仕様トラックボールケース（ベアリング４個）<br>
-34mmベアリング仕様トラックボールケース（ベアリング４個）<br>
+25mmベアリング仕様トラックボールケース（ベアリング3個）<br>
+34mmベアリング仕様トラックボールケース（ベアリング２個）<br>
 LEDによるバッテリー残量、BLE接続状態の簡易表示<br>
 バッテリー容量：左手側300mAh  右手側500mAh <br>
 <br>
@@ -149,7 +151,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 <br>
 ・Gateron KS-33 ロープロファイル レッド サイレント 2.0 メカニカルスイッチ<br>
 <br>
-※gateron　ロープロファイルスイッチであれば対応しています。<br>
+※GateronLP3.0には対応していません。（ピンがMX軸と同様かつ独自企画のため、LP2.0までの規格と異なっていますので使用できません。<br>
 　MX　Cherry互換のスイッチやマグネティックスイッチについては対応していませんのでご注意ください。<br>
 <br>
  ・Kailh ロープロファイル Choc スイッチ　各種（コンセント型）<br>
@@ -165,13 +167,14 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 # ファームウェアのダウンロード
 ファームウェアはこちら
 kemapを編集しない場合はフォークする必要はありません。<br>
->[zonkeyファームウェア(JIS配列）.zip](https://github.com/user-attachments/files/20989723/zonkey.JIS.zip)<br>
->[zonkeyファームウェア(JIS配列）オートマウスなし.zip](https://github.com/user-attachments/files/20989724/zonkey.JIS.zip)<br>
+>[zonkey(JIS配列）ファームウェア.zip](https://github.com/user-attachments/files/21035838/zonkey.JIS.zip)<br>
+>[zonkey(JIS配列）オートマウスなし.zip](https://github.com/user-attachments/files/21035843/zonkey.JIS.zip)<br>
+>[zonkey(US配列）ファームウェア.zip](https://github.com/user-attachments/files/21036753/zonkey.US.zip)<br>
 <br>
 元データ<br>
 [zmk-config-zonkey(JIS)](https://github.com/kureyakey/zmk-config-zonkey)<br>
 [zmk-config-zonkey2(JIS)オートマウスなし](https://github.com/kureyakey/zmk-config-zonkey2)<br>
-
+[zmk-config-zonkey3(US)](https://github.com/kureyakey/zmk-config-zonkey3)<br>
 kemapを編集して使用する場合は以下に記載する手順を行う必要がございます。<br>
 <br>
  (1)ファームウェアをダウンロードするためGithubアカウントを作成する。<br>
@@ -284,12 +287,10 @@ kemapを編集して使用する場合は以下に記載する手順を行う必
 (1)PCとZonkeyをUSBケーブルで接続し、以下の手順を行ってください。<br>
 <br>
 <br>
-![Image](https://github.com/user-attachments/assets/8c4b86fa-e249-4288-88e9-113a6de4f31e)
+<img width="1525" height="948" alt="Image" src="https://github.com/user-attachments/assets/43621994-71c5-444e-83f2-4f7d136f201a" /><br>
 <br>
 <br>
-<br>
-![Image](https://github.com/user-attachments/assets/c8af5e12-47a5-471b-a2b8-146585069f15)
-<br>
+<img width="1545" height="959" alt="Image" src="https://github.com/user-attachments/assets/e75e512f-b767-4b72-b5a4-5dd0ea2e7b71" /><br>
 <br>
 <br>
 <br>
