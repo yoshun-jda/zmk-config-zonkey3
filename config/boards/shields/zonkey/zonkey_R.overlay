@@ -57,10 +57,9 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         automouse-layer = <6>;
         scroll-layers = <5>;
-
-
     };
+};
+
 &trackball {
     zmk,pointing-poll-interval-ms = <1>;   /* 1ms間隔でポーリング */
-};
 };
