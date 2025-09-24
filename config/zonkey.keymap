@@ -13,7 +13,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        eisuu {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <12 13>;
+        };
+
+        kana {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <18 19>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -56,7 +68,7 @@
             bindings = <
 &mt Q TAB         &kp Y         &kp U         &kp COMMA       &kp MINUS                                              &kp P        &kp D            &kp H            &kp W        &kp F
 &mt LEFT_SHIFT A  &mt LCTRL I   &mt LCMD E    &mt LEFT_ALT O  &kp PERIOD   &kp LS(LG(KP_NUMBER_4))    &kp MINUS      &kp K        &mt RIGHT_ALT T  &mt RIGHT_GUI N  &mt RCTRL S  &mt RIGHT_SHIFT R
-&kp LEFT_SHIFT    &kp Z         &kp X         &kp C           &kp V        &kp SLASH                  &kp SEMICOLON  &kp G        &kp M            &kp L            &lt 5 B      &kp J
+&kp Z             &kp X         &kp C         &kp V           &kp QMARK    &kp SLASH                  &kp SEMICOLON  &kp G        &kp M            &kp L            &lt 5 B      &kp J
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 TAB       &lt 1 SPACE  &lt 2 ENTER                               &lt 3 ENTER  &lt 4 BACKSPACE                                                   &kp SLASH
             >;
 
